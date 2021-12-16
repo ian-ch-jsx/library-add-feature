@@ -9,7 +9,7 @@ function App() {
       <h1>Library Catalog</h1>
       <BrowserRouter>
         <Link to="/">Home</Link>
-        <Link to="/books">Library</Link>
+        <Link to="/books">Books</Link>
         <Switch>
           <Route path="/books/:id" component={BookDetail} />
           <Route path="/books" component={BookList} />

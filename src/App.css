@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container a {
+  color: rgb(50, 180, 255);
+}
+
+.container a:visited {
+  color: rgb(138, 107, 224);
+}

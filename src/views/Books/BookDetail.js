@@ -3,7 +3,7 @@ import Book from '../../components/book/Book';
 import { getBookById } from '../../services/books';
 
 function BookDetail(books) {
-  const id = books.match.params.id;
+  const id = book.match.params.id; // TODO: Use id from route
   const [book, setBook] = useState(null);
 
   useEffect(() => {
